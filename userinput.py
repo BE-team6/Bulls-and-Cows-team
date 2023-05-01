@@ -20,8 +20,5 @@ def getUserInput():
         numlist = list(map(int, input_num))
         diff_digit = (len(set(numlist)) == 4)
 
-    # For checking
-    # print("You entered proper input code :", input_num)
-
 getUserInput()
 
