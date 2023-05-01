@@ -1,4 +1,6 @@
-def print_result(bulls: int, cows: int):
+def print_result(results):
+    bulls = results[0]
+    cows = results[1]
     if bulls == 4:
         print("it's correct")
     else:
@@ -6,4 +8,4 @@ def print_result(bulls: int, cows: int):
         print("cows: "+str(cows))
 
 if __name__ == '__main__':
-    print_result(4, 4)
+    print_result([4, 4])
