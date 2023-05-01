@@ -1,5 +1,6 @@
 def create_answer():
-    print("test")
+    return "4529"
 
 if __name__ == "__main__":
-    create_answer()
+    answer = create_answer()
+    print(answer)
