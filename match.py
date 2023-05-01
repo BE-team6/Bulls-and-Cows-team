@@ -1,7 +1,7 @@
 def bull(ans:int,inp:int):
     if ans == inp:
         return True
-    else :
+    else:
         return False
 
 def cow(ans:list,inp:int):
@@ -19,4 +19,5 @@ def match(ans_list:list,inp_list:list):
             bNc[1] += 1
         else:
             continue
+    #print([bNc])
     return bNc
