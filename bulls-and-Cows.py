@@ -1,5 +1,7 @@
+import random
+
 def create_answer():
-    return "4529"
+    return random.random()
 
 if __name__ == "__main__":
     answer = create_answer()
