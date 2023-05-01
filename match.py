@@ -5,8 +5,10 @@ def bull(ans:int,inp:int):
         return False
 
 def cow(ans:list,inp:int):
-    
-    return 0
+    if inp in ans:
+        return True
+    else:
+        return False
 
 def match(ans_list:list,inp_list:list):
     bNc = [0,0] # [bulls, cows]
