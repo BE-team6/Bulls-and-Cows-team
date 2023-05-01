@@ -5,8 +5,16 @@ def bull(ans:int,inp:int):
         return False
 
 def cow(ans:list,inp:int):
+    
     return 0
 
 def match(ans_list:list,inp_list:list):
-    return 0
-        
+    bNc = [0,0] # [bulls, cows]
+    for i in range(0,4):
+        if(bull(ans_list[i],inp_list[i])):
+            bNc[0] += 1
+        elif(cow(ans_list,inp_list[i])):
+            bNc[1] += 1
+        else:
+            continue
+    return bNc
