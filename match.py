@@ -1,9 +1,12 @@
 def bull(ans:int,inp:int):
-    return 0
+    if ans == inp:
+        return True
+    else :
+        return False
 
 def cow(ans:list,inp:int):
     return 0
 
-def match(answer_list:list,input_list:list):
+def match(ans_list:list,inp_list:list):
     return 0
         
